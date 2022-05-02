@@ -1,0 +1,20 @@
+version: 2 
+
+models:
+  - name: example
+    description: "Example"
+    columns:
+      - name: example_number
+        description: " A unique identifier"
+        tests:
+          - unique
+          - not null
+
+      - name: example_area_number
+        description: "UNASSIGNED"
+
+      - name: example_division_number
+        description: " A unique identifier for a division"
+        tests:
+          - unique
+          - not null

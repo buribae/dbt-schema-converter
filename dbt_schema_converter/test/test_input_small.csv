@@ -1,0 +1,4 @@
+Order,Table Name,Table Description,Column Name,Data Type,Column Description,Tests
+1,example,Example,example_number,integer, A unique identifier,unique|not null
+2,example,Example,example_area_number,integer,UNASSIGNED,
+3,example,Example,example_division_number,integer, A unique identifier for a division,unique|not null

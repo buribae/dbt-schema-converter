@@ -1,0 +1,814 @@
+version: 2 
+
+models:
+  - name: c_example_j_example
+    description: "c_example j_example"
+    columns:
+      - name: c_example_j_example_num
+        description: "description"
+        tests:
+          - unique
+          - not null
+
+      - name: c_example_j_example_description
+        description: "description"
+
+      - name: b_example_Area_num
+        description: "description"
+
+  - name: b_example_area
+    description: "b_example Area"
+    columns:
+      - name: b_example_area_num
+        description: "COLUMN DESCRIPTION"
+        tests:
+          - unique
+          - not null
+
+  - name: 
+    description: "o_example"
+    columns:
+      - name: b_example_area_description
+        description: " A  unique identification for a grouping of  d_example.  A c_example j_example represents the level of the d_example . (m_example-a_example-d_example Group-c_example j_example)"
+
+      - name: c_example_sub_j_example_num
+        description: "description"
+        tests:
+          - unique
+          - not null
+
+      - name: b_example_area_num
+        description: "description"
+        tests:
+          - unique
+          - not null
+
+      - name: c_example_sub_j_example_description
+        description: "description"
+
+      - name: c_example_j_example_num
+        description: "description"
+        tests:
+          - unique
+          - not null
+
+      - name: d_example_group_num
+        description: "description"
+        tests:
+          - unique
+          - not null
+
+      - name: c_example_j_example_num
+        description: "description"
+        tests:
+          - unique
+          - not null
+
+      - name: b_example_area_num
+        description: "description"
+        tests:
+          - unique
+          - not null
+
+      - name: d_example_group_description
+        description: "description"
+
+      - name: m_example_d
+        description: "///////////"
+
+      - name: m_example_m
+        description: "TESTING"
+
+      - name: m_example_n
+        description: "TESTING"
+
+      - name: m_example_f
+        description: ",./,./,./,./"
+
+      - name: m_example_c
+        description: "]]]]]]]]]]]]]]]]]]]]]"
+
+      - name: m_example_l
+        description: "TESTING"
+
+      - name: m_example_k
+        description: "TESTING"
+
+      - name: m_example_b
+        description: "[[[[[[[[[[[[[[[[[[[["
+
+      - name: m_example_j
+        description: "TESTING"
+
+      - name: m_example_a
+        description: "||||||||||||||||||||"
+
+      - name: o_example_c
+        description: "description"
+        tests:
+          - unique
+          - not null
+
+  - name: d_example_group
+    description: "d_example Group"
+    columns:
+      - name: c_example_sub_j_example_num
+        description: "description"
+        tests:
+          - unique
+          - not null
+
+  - name: a_example
+    description: "a_example"
+    columns:
+      - name: a_example_num
+        description: " A unique identifier for a_example.  { example - example }"
+        tests:
+          - unique
+          - not null
+
+      - name: c_example_sub_j_example_num
+        description: " A  assigned unique identifier for a logical grouping of  d_examples.   A grouping of like d_example groups_x000D__x000D_
+"
+        tests:
+          - unique
+          - not null
+
+      - name: c_example_j_example_num
+        description: " A  unique identification for a grouping of  d_example.  A c_example j_example represents the level of the d_example . (m_example-a_example-d_example Group-c_example j_example)"
+        tests:
+          - unique
+          - not null
+
+      - name: b_example_area_num
+        description: "The b_example Area num is a unique num to identify a specific b_example Area. Examples include 3	EXAMPLE	3	EXAMPLE"
+        tests:
+          - unique
+          - not null
+
+      - name: a_example_description
+        description: "Description of a_example. CAPITALIZED, camelCase"
+
+      - name: d_example_group_num
+        description: " A  unique identification for a grouping of  d_example.  A c_example j_example represents the level of the d_example . (m_example-a_example-d_example Group-c_example j_example)"
+        tests:
+          - unique
+          - not null
+
+  - name: m_example
+    description: "m_example"
+    columns:
+      - name: m_example_num
+        description: "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        tests:
+          - unique
+          - not null
+
+      - name: m_example_e
+        description: "..............."
+
+      - name: m_example_g
+        description: "abcDEFGHIJKLMNOPQRSTUVWXYZ"
+
+      - name: m_example_h
+        description: "TESTING"
+
+      - name: m_example_i
+        description: "TESTING"
+
+      - name: m_example_description
+        description: ")qrqrqrqrqr"
+
+  - name: o_example
+    description: "o_example"
+    columns:
+      - name: o_example_b
+        description: "description"
+        tests:
+          - unique
+          - not null
+
+      - name: o_example_a
+        description: "description"
+        tests:
+          - unique
+          - not null
+
+      - name: o_example_f
+        description: "description"
+        tests:
+          - unique
+          - not null
+
+      - name: o_example_e
+        description: "description"
+
+      - name: o_example_d
+        description: "description"
+
+      - name: o_example_g
+        description: "description"
+        tests:
+          - unique
+          - not null
+
+  - name: l_example
+    description: "TYPE_TEXT"
+    columns:
+      - name: l_example_code
+        description: "TESTING"
+        tests:
+          - unique
+          - not null
+
+      - name: short_description_text
+        description: "TESTING"
+
+      - name: l_example_a
+        description: "TESTING"
+
+  - name: f_example_group_type
+    description: "f_example Group Type"
+    columns:
+      - name: f_example_group_type_code
+        description: "CAPITAL WITH NUM 0 1 2 3"
+        tests:
+          - unique
+          - not null
+
+      - name: short_description_text
+        description: "123456789012345678123456789
+()()()()()()()()()()"
+
+      - name: f_example_group_type_text
+        description: "(0) (1) (2) {2}"
+
+  - name: q_example
+    description: "Example and example"
+    columns:
+      - name: q_example_code
+        description: "description"
+        tests:
+          - unique
+          - not null
+
+      - name: short_description_text
+        description: "description"
+
+      - name: q_example_code_text
+        description: "description"
+
+  - name: f_example_z_example_y_example
+    description: "f_example z_example y_example identifies a type of f_example (f_example, small b_example,  b_example f_example, etc)."
+    columns:
+      - name: f_example_z_example_y_example_code
+        description: "f_example z_example y_example a type of f_example (employee, retail f_example, small b_example, commercial b_example f_example, etc). and further divides b_example f_example by method of payment."
+        tests:
+          - unique
+          - not null
+
+      - name: short_description_text
+        description: "DESC, DESC, DESC,,"
+
+      - name: f_example_q_example_text
+        description: "Description of the z_example Type Code.  0 = not assigned, 1 = (A), 2 = (B)"
+
+  - name: e_example
+    description: "e_example"
+    columns:
+      - name: e_example_num
+        description: "DESC DESC EXAMPLE"
+        tests:
+          - unique
+          - not null
+
+      - name: e_example_name
+        description: "DESC DESC EXAMPLE"
+
+  - name: j_example
+    description: "j_example"
+    columns:
+      - name: j_example_num
+        description: "%%%%%%%"
+        tests:
+          - unique
+          - not null
+
+      - name: j_example_description_text
+        description: "$$$$$$$$$"
+
+  - name: p_example
+    description: "p_example"
+    columns:
+      - name: p_example_num
+        description: "description"
+        tests:
+          - unique
+          - not null
+
+      - name: j_example_num
+        description: "description"
+        tests:
+          - unique
+          - not null
+
+      - name: p_example_description
+        description: "description"
+
+      - name: e_example_num
+        description: "description"
+
+  - name: i_example
+    description: "i_example"
+    columns:
+      - name: i_example_num
+        description: "!!!!!!!!!!!!!!!!!
+"
+        tests:
+          - unique
+          - not null
+
+      - name: p_example_num
+        description: "#############"
+        tests:
+          - unique
+          - not null
+
+      - name: i_example_description
+        description: "::::::::::::"
+
+  - name: n_example_type
+    description: "maybe"
+    columns:
+      - name: n_example_type_code
+        description: "description"
+        tests:
+          - unique
+          - not null
+
+      - name: description_text
+        description: "description"
+
+      - name: n_example_group_code
+        description: "description"
+
+  - name: n_example_subtype
+    description: "has ()"
+    columns:
+      - name: n_example_subtype_code
+        description: "description"
+        tests:
+          - unique
+          - not null
+
+      - name: description_text
+        description: "description"
+
+  - name: n_example
+    description: "n_example"
+    columns:
+      - name: 44
+        description: "44"
+        tests:
+          - unique
+          - not null
+
+      - name: 22
+        description: "22"
+        tests:
+          - unique
+          - not null
+
+      - name: 42
+        description: "42"
+
+      - name: 48
+        description: "48"
+        tests:
+          - unique
+          - not null
+
+      - name: 47
+        description: "47"
+        tests:
+          - unique
+          - not null
+
+      - name: 7
+        description: "7"
+
+      - name: 11
+        description: "11"
+
+      - name: 17
+        description: "17"
+
+      - name: 55
+        description: "55"
+
+      - name: 56
+        description: "56"
+
+      - name: 57
+        description: "57"
+
+      - name: 27
+        description: "27"
+
+      - name: 25
+        description: "25"
+
+      - name: 26
+        description: "26"
+
+      - name: 53
+        description: "53"
+
+      - name: 12
+        description: "12"
+
+      - name: 69
+        description: "69"
+
+      - name: 71
+        description: "71"
+
+      - name: 45
+        description: "45"
+
+      - name: 37
+        description: "37"
+
+      - name: 35
+        description: "35"
+
+      - name: 1
+        description: "1"
+
+      - name: 8
+        description: "8"
+
+      - name: 5
+        description: "5"
+
+      - name: 4
+        description: "4"
+
+      - name: 10
+        description: "10"
+
+      - name: 9
+        description: "9"
+
+      - name: 28
+        description: "28"
+
+      - name: 68
+        description: "68"
+
+      - name: 20
+        description: "20"
+
+      - name: 23
+        description: "23"
+
+      - name: 14
+        description: "14"
+
+      - name: 34
+        description: "34"
+
+      - name: 49
+        description: "49"
+
+      - name: 16
+        description: "16"
+
+      - name: 6
+        description: "6"
+
+      - name: 2
+        description: "2"
+
+      - name: 3
+        description: "3"
+
+      - name: 13
+        description: "13"
+
+      - name: 15
+        description: "15"
+        tests:
+          - CRP_NBR
+
+      - name: 18
+        description: "18"
+
+      - name: 19
+        description: "19"
+
+      - name: 21
+        description: "21"
+
+      - name: 24
+        description: "24"
+
+      - name: 29
+        description: "29"
+
+      - name: 30
+        description: "30"
+
+      - name: 31
+        description: "31"
+
+      - name: 32
+        description: "32"
+
+      - name: 33
+        description: "33"
+
+      - name: 36
+        description: "36"
+
+      - name: 38
+        description: "38"
+
+      - name: 39
+        description: "39"
+
+      - name: 40
+        description: "40"
+
+      - name: 41
+        description: "41"
+
+      - name: 43
+        description: "43"
+
+      - name: 46
+        description: "46"
+
+      - name: 50
+        description: "50"
+
+      - name: 51
+        description: "51"
+
+      - name: 52
+        description: "52"
+
+      - name: 54
+        description: "54"
+
+      - name: 58
+        description: "58"
+
+      - name: 59
+        description: "59"
+
+      - name: 60
+        description: "60"
+
+      - name: 61
+        description: "61"
+
+      - name: 62
+        description: "62"
+
+      - name: 63
+        description: "63"
+
+      - name: 64
+        description: "64"
+
+      - name: 65
+        description: "65"
+
+      - name: 66
+        description: "66"
+
+      - name: 67
+        description: "67"
+
+      - name: 70
+        description: "70"
+
+  - name: g_example
+    description: "g_example"
+    columns:
+      - name: g_example_j
+        description: " ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate veli"
+        tests:
+          - unique
+          - not null
+
+      - name: n_example_num
+        description: "g_example, n_example_num"
+        tests:
+          - unique
+          - not null
+
+      - name: g_example_a
+        description: "G_example a."
+
+      - name: g_example_d
+        description: "DESC DESC EXAMPLE"
+
+      - name: g_example_p
+        description: " ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate veli"
+
+      - name: g_example_g
+        description: "Testing 3"
+
+      - name: g_example_i
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, qu"
+
+      - name: g_example_h
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+
+      - name: g_example_l
+        description: "g_example_l"
+
+      - name: g_example_o
+        description: " ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate veli"
+
+      - name: g_example_e
+        description: "TESTING"
+
+      - name: g_example_f
+        description: "TESTING 2"
+
+      - name: g_example_s
+        description: " ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate veli"
+
+      - name: g_example_m
+        description: "g_example_m"
+
+      - name: g_example_n
+        description: "g_example_n"
+
+      - name: g_example_c
+        description: "C of g_example"
+
+      - name: g_example_q
+        description: " ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate veli"
+
+      - name: g_example_r
+        description: " ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate veli
+
+
+
+
+
+--------"
+
+      - name: g_example_b
+        description: "G_example gggggggggggggggggggggggg"
+
+      - name: g_example_k
+        description: "g_example_k"
+
+  - name: h_example_type
+    description: "f and h and g and i"
+    columns:
+      - name: h_example_a
+        description: " ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate veli"
+        tests:
+          - unique
+          - not null
+
+      - name: h_example_b
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, qu"
+
+  - name: k_example
+    description: "table is updated using
+b_example and c_example and 
+d_example and 
+e_example and f_example"
+    columns:
+      - name: k_example_a
+        description: "^^^^^^^^^"
+        tests:
+          - unique
+          - not null
+
+      - name: k_example_b
+        description: "&&&&&&&"
+
+      - name: k_example_c
+        description: "*********"
+
+      - name: k_example_d
+        description: "(((((((((("
+
+      - name: k_example_e
+        description: ")))))))))))"
+
+      - name: k_example_f
+        description: "_________"
+
+      - name: k_example_g
+        description: "TESTING"
+
+      - name: k_example_h
+        description: "TESTING"
+
+      - name: k_example_i
+        description: "TESTING"
+
+      - name: k_example_j
+        description: "TESTING"
+
+      - name: k_example_k
+        description: "TESTING"
+
+      - name: k_example_l
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+
+      - name: k_example_m
+        description: "TESTING"
+
+      - name: k_example_n
+        description: "TESTING"
+
+      - name: k_example_o
+        description: "TESTING"
+
+      - name: k_example_p
+        description: "TESTING"
+
+      - name: k_example_q
+        description: "0 = 1
+3 = 4
+1 = 2"
+
+      - name: k_example_r
+        description: "TESTING"
+
+  - name: r_example
+    description: "Example and example"
+    columns:
+      - name: n_example_num
+        description: "description"
+
+      - name: purchase_order_num
+        description: "description"
+
+      - name: m_example_num
+        description: "description"
+
+      - name: receiving_report_num
+        description: "description"
+
+      - name: r_example_a
+        description: "description"
+
+      - name: r_example_b
+        description: "description"
+
+      - name: r_example_c
+        description: "description"
+
+      - name: r_example_d
+        description: "description"
+
+      - name: r_example_e
+        description: "description"
+
+      - name: r_example_f
+        description: "description"
+
+      - name: r_example_g
+        description: "description"
+
+      - name: h
+        description: "description"
+
+      - name: i
+        description: "description"
+
+      - name: j
+        description: "description"
+
+  - name: n_example_history
+    description: "n_example History"
+    columns:
+      - name: k
+        description: "description"
+
+      - name: l
+        description: "description"
+
+      - name: m
+        description: "description"
+
+      - name: n
+        description: "description"
+
+      - name: o
+        description: "description"

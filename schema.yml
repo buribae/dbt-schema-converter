@@ -1,0 +1,11 @@
+version: 2 
+
+models:
+  - name: stg_customers
+    description: "Stage for Customers"
+    columns:
+      - name: customer_id
+        description: "A unique id for the customer"
+        tests:
+          - unique
+          - not null

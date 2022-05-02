@@ -1,0 +1,104 @@
+Excel Column Name Different,Excel Column Name Different,Excel Column Name Different,Excel Column Name Different,Excel Column Name Different,Teradata Data Type
+c_example_j_example,c_example j_example,c_example_j_example_num,description,unique|not null,CHAR(40)
+c_example_j_example,c_example j_example,c_example_j_example_description,description,,INTEGER
+c_example_j_example,c_example j_example,b_example_Area_num,description,,INTEGER
+b_example_area,b_example Area,b_example_area_num,COLUMN DESCRIPTION,unique|not null,INTEGER
+b_example_area,b_example Area,b_example_area_description, A  unique identification for a grouping of  d_example.  A c_example j_example represents the level of the d_example . (m_example-a_example-d_example Group-c_example j_example),,INTEGER
+c_example_subj_example,c_example Subj_example,c_example_sub_j_example_num,description,unique|not null,INTEGER
+c_example_subj_example,c_example Subj_example,b_example_area_num,description,unique|not null,CHAR(40)
+c_example_subj_example,c_example Subj_example,c_example_sub_j_example_description,description,,INTEGER
+c_example_subj_example,c_example Subj_example,c_example_j_example_num,description,unique|not null,CHAR(40)
+d_example_group,d_example Group,d_example_group_num,description,unique|not null,SMALLINT
+d_example_group,d_example Group,c_example_j_example_num,description,unique|not null,SMALLINT
+d_example_group,d_example Group,b_example_area_num,description,unique|not null,CHAR(40)
+d_example_group,d_example Group,d_example_group_description,description,,CHAR(5)
+d_example_group,d_example Group,c_example_sub_j_example_num,description,unique|not null,SMALLINT
+a_example,a_example,a_example_num, A unique identifier for a_example.  { example - example },unique|not null,CHAR(40)
+a_example,a_example,c_example_sub_j_example_num," A  assigned unique identifier for a logical grouping of  d_examples.   A grouping of like d_example groups
+",unique|not null,CHAR(7)
+a_example,a_example,c_example_j_example_num, A  unique identification for a grouping of  d_example.  A c_example j_example represents the level of the d_example . (m_example-a_example-d_example Group-c_example j_example),unique|not null,"DECIMAL(9,4)"
+a_example,a_example,b_example_area_num,"The b_example Area num is a unique num to identify a specific b_example Area. Examples include 3	EXAMPLE	3	EXAMPLE",unique|not null,INTEGER
+a_example,a_example,a_example_description,"Description of a_example. CAPITALIZED, camelCase",,INTEGER
+a_example,a_example,d_example_group_num, A  unique identification for a grouping of  d_example.  A c_example j_example represents the level of the d_example . (m_example-a_example-d_example Group-c_example j_example),unique|not null,"DECIMAL(9,4)"
+m_example,m_example,m_example_num,ABCDEFGHIJKLMNOPQRSTUVWXYZ,unique|not null,INTEGER
+m_example,m_example,m_example_e,É...............,,INTEGER
+m_example,m_example,m_example_g,abcDEFGHIJKLMNOPQRSTUVWXYZ,,INTEGER
+m_example,m_example,m_example_h,TESTING,,CHAR(1)
+m_example,m_example,m_example_i,TESTING,,SMALLINT
+m_example,m_example,m_example_description,É)qrqrqrqrqr,,INTEGER
+m_example,m_example,m_example_d,///////////,,SMALLINT
+m_example,m_example,m_example_m,TESTING,,
+m_example,m_example,m_example_n,TESTING,,INTEGER
+m_example,m_example,m_example_f,",./,./,./,./",,INTEGER
+m_example,m_example,m_example_c,]]]]]]]]]]]]]]]]]]]]],,INTEGER
+m_example,m_example,m_example_l,TESTING,,INTEGER
+m_example,m_example,m_example_k,TESTING,,INTEGER
+m_example,m_example,m_example_b,[[[[[[[[[[[[[[[[[[[[,,DATE
+m_example,m_example,m_example_j,TESTING,,DATE
+m_example,m_example,m_example_a,||||||||||||||||||||,,INTEGER
+o_example,o_example,o_example_c,description,unique|not null,SMALLINT
+o_example,o_example,o_example_b,description,unique|not null,CHAR(40)
+o_example,o_example,o_example_a,description,unique|not null,CHAR(40)
+o_example,o_example,o_example_f,description,unique|not null,SMALLINT
+o_example,o_example,o_example_e,description,,SMALLINT
+o_example,o_example,o_example_d,description,,CHAR(40)
+o_example,o_example,o_example_g,description,unique|not null,
+l_example,TYPE_TEXT,l_example_code,TESTING,unique|not null,
+l_example,TYPE_TEXT,short_description_text,TESTING,,
+l_example,TYPE_TEXT,l_example_a,TESTING,,
+f_example_group_type,f_example Group Type,f_example_group_type_code,CAPITAL WITH NUM 0 1 2 3,unique|not null,
+f_example_group_type,f_example Group Type,short_description_text,"123456789012345678123456789
+()()()()()()()()()()",,
+f_example_group_type,f_example Group Type,f_example_group_type_text,(0) (1) (2) {2},,
+q_example,Example and example,q_example_code,description,unique|not null,
+q_example,Example and example,short_description_text,description,,
+q_example,Example and example,q_example_code_text,description,,
+f_example_z_example_y_example,"f_example z_example y_example identifies a type of f_example (f_example, small b_example,  b_example f_example, etc).",f_example_z_example_y_example_code,"f_example z_example y_example a type of f_example (employee, retail f_example, small b_example, commercial b_example f_example, etc). and further divides b_example f_example by method of payment.",unique|not null,
+f_example_z_example_y_example,"f_example z_example y_example identifies a type of f_example (f_example, small b_example,  b_example f_example, etc).",short_description_text,"DESC, DESC, DESC,,",,
+f_example_z_example_y_example,"f_example z_example y_example identifies a type of f_example (f_example, small b_example,  b_example f_example, etc).",f_example_q_example_text,"Description of the z_example Type Code.  0 = not assigned, 1 = (A), 2 = (B)",,
+e_example,e_example,e_example_num,DESC DESC EXAMPLE,unique|not null,
+e_example,e_example,e_example_name,DESC DESC EXAMPLE,,
+j_example,j_example,j_example_num,%%%%%%%,unique|not null,
+j_example,j_example,j_example_description_text,$$$$$$$$$,,
+p_example,p_example,p_example_num,description,unique|not null,
+p_example,p_example,j_example_num,description,unique|not null,
+p_example,p_example,p_example_description,description,,CHAR(40)
+i_example,i_example,i_example_num,"!!!!!!!!!!!!!!!!!
+",unique|not null,SMALLINT
+i_example,i_example,p_example_num,#############,unique|not null,CHAR(5)
+i_example,i_example,i_example_description,::::::::::::,,INTEGER
+n_example_type,n_example Type,n_example_type_code,description,unique|not null,"DECIMAL(11,4)"
+n_example_type,no,description_text,description,,"DECIMAL(9,6)"
+n_example_type,maybe,n_example_group_code,description,,CHAR(18)
+n_example_subtype,yes,n_example_subtype_code,description,unique|not null,CHAR(1)
+n_example_subtype,has (),description_text,description,,CHAR(1)
+n_example,n_example,44,44,unique|not null,CHAR(40)
+n_example,n_example,22,22,unique|not null,INTEGER
+n_example,n_example,42,42,,SMALLINT
+n_example,n_example,48,48,unique|not null,DATE
+n_example,n_example,47,47,unique|not null,SMALLINT
+n_example,n_example,7,7,,SMALLINT
+n_example,n_example,11,11,,INTEGER
+n_example,n_example,17,17,,SMALLINT
+n_example,n_example,55,55,,CHAR(5)
+n_example,n_example,56,56,,CHAR(5)
+n_example,n_example,57,57,,CHAR(1)
+n_example,n_example,27,27,,
+n_example,n_example,25,25,,
+n_example,n_example,26,26,,CHAR(4)
+n_example,n_example,53,53,,CHAR(4)
+n_example,n_example,12,12,,SMALLINT
+n_example,n_example,69,69,,CHAR(50)
+n_example,n_example,71,71,,CHAR(1)
+n_example,n_example,45,45,,CHAR(17)
+n_example,n_example,37,37,,CHAR(1)
+n_example,n_example,35,35,,CHAR(1)
+n_example,n_example,1,1,,DATE
+n_example,n_example,8,8,,
+n_example,n_example,5,5,,CHAR(5)
+n_example,n_example,4,4,,
+n_example,n_example,10,10,,SMALLINT
+n_example,n_example,9,9,,CHAR(20)
+n_example,n_example,28,28,,
+n_example,n_example,68,68,,
+,,,,,

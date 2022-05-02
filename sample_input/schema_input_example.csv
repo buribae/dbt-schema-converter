@@ -1,0 +1,2 @@
+Table Name,Table Description,Column Name,Column Description,Tests
+stg_customers,Stage for Customers,customer_id,A unique id for the customer,unique|not null

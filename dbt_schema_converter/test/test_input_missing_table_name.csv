@@ -1,0 +1,244 @@
+Order,Table Name,Table Description,Column Name,Data Type,Column Description,Tests,Teradata Data Type
+1,c_example_j_example,c_example j_example,c_example_j_example_num,,description,unique|not null,CHAR(40)
+2,c_example_j_example,c_example j_example,c_example_j_example_description,,description,,INTEGER
+3,c_example_j_example,c_example j_example,b_example_Area_num,,description,,INTEGER
+4,b_example_area,b_example Area,b_example_area_num,,COLUMN DESCRIPTION,unique|not null,INTEGER
+5,,b_example Area,b_example_area_description,, A  unique identification for a grouping of  d_example.  A c_example j_example represents the level of the d_example . (m_example-a_example-d_example Group-c_example j_example),,INTEGER
+6,,c_example Subj_example,c_example_sub_j_example_num,,description,unique|not null,INTEGER
+7,,c_example Subj_example,b_example_area_num,,description,unique|not null,CHAR(40)
+8,,c_example Subj_example,c_example_sub_j_example_description,,description,,INTEGER
+9,,c_example Subj_example,c_example_j_example_num,,description,unique|not null,CHAR(40)
+10,,d_example Group,d_example_group_num,,description,unique|not null,SMALLINT
+11,,d_example Group,c_example_j_example_num,,description,unique|not null,SMALLINT
+12,,d_example Group,b_example_area_num,,description,unique|not null,CHAR(40)
+13,,d_example Group,d_example_group_description,,description,,CHAR(5)
+14,d_example_group,d_example Group,c_example_sub_j_example_num,,description,unique|not null,SMALLINT
+15,a_example,a_example,a_example_num,integer, A unique identifier for a_example.  { example - example },unique|not null,CHAR(40)
+16,a_example,a_example,c_example_sub_j_example_num,," A  assigned unique identifier for a logical grouping of  d_examples.   A grouping of like d_example groups
+",unique|not null,CHAR(7)
+17,a_example,a_example,c_example_j_example_num,, A  unique identification for a grouping of  d_example.  A c_example j_example represents the level of the d_example . (m_example-a_example-d_example Group-c_example j_example),unique|not null,"DECIMAL(9,4)"
+18,a_example,a_example,b_example_area_num,,"The b_example Area num is a unique num to identify a specific b_example Area. Examples include 3	EXAMPLE	3	EXAMPLE",unique|not null,INTEGER
+19,a_example,a_example,a_example_description,string,"Description of a_example. CAPITALIZED, camelCase",,INTEGER
+20,a_example,a_example,d_example_group_num,, A  unique identification for a grouping of  d_example.  A c_example j_example represents the level of the d_example . (m_example-a_example-d_example Group-c_example j_example),unique|not null,"DECIMAL(9,4)"
+21,m_example,m_example,m_example_num,,ABCDEFGHIJKLMNOPQRSTUVWXYZ,unique|not null,INTEGER
+22,m_example,m_example,m_example_e,,É...............,,INTEGER
+23,m_example,m_example,m_example_g,,abcDEFGHIJKLMNOPQRSTUVWXYZ,,INTEGER
+24,m_example,m_example,m_example_h,,TESTING,,CHAR(1)
+25,m_example,m_example,m_example_i,,TESTING,,SMALLINT
+26,m_example,m_example,m_example_description,,É)qrqrqrqrqr,,INTEGER
+27,,m_example,m_example_d,,///////////,,SMALLINT
+28,,m_example,m_example_m,,TESTING,,
+29,,m_example,m_example_n,,TESTING,,INTEGER
+30,,m_example,m_example_f,,",./,./,./,./",,INTEGER
+31,,m_example,m_example_c,,]]]]]]]]]]]]]]]]]]]]],,INTEGER
+32,,m_example,m_example_l,,TESTING,,INTEGER
+33,,m_example,m_example_k,,TESTING,,INTEGER
+34,,m_example,m_example_b,,[[[[[[[[[[[[[[[[[[[[,,DATE
+35,,m_example,m_example_j,,TESTING,,DATE
+36,,m_example,m_example_a,,||||||||||||||||||||,,INTEGER
+43,,o_example,o_example_c,,description,unique|not null,SMALLINT
+44,o_example,o_example,o_example_b,,description,unique|not null,CHAR(40)
+45,o_example,o_example,o_example_a,,description,unique|not null,CHAR(40)
+46,o_example,o_example,o_example_f,,description,unique|not null,SMALLINT
+47,o_example,o_example,o_example_e,,description,,SMALLINT
+48,o_example,o_example,o_example_d,,description,,CHAR(40)
+49,o_example,o_example,o_example_g,,description,unique|not null,
+50,l_example,TYPE_TEXT,l_example_code,,TESTING,unique|not null,
+51,l_example,TYPE_TEXT,short_description_text,,TESTING,,
+52,l_example,TYPE_TEXT,l_example_a,,TESTING,,
+53,f_example_group_type,f_example Group Type,f_example_group_type_code,,CAPITAL WITH NUM 0 1 2 3,unique|not null,
+54,f_example_group_type,f_example Group Type,short_description_text,,"123456789012345678123456789
+()()()()()()()()()()",,
+55,f_example_group_type,f_example Group Type,f_example_group_type_text,,(0) (1) (2) {2},,
+56,q_example,Example and example,q_example_code,,description,unique|not null,
+57,q_example,Example and example,short_description_text,,description,,
+58,q_example,Example and example,q_example_code_text,,description,,
+59,f_example_z_example_y_example,"f_example z_example y_example identifies a type of f_example (f_example, small b_example,  b_example f_example, etc).",f_example_z_example_y_example_code,,"f_example z_example y_example a type of f_example (employee, retail f_example, small b_example, commercial b_example f_example, etc). and further divides b_example f_example by method of payment.",unique|not null,
+60,f_example_z_example_y_example,"f_example z_example y_example identifies a type of f_example (f_example, small b_example,  b_example f_example, etc).",short_description_text,,"DESC, DESC, DESC,,",,
+61,f_example_z_example_y_example,"f_example z_example y_example identifies a type of f_example (f_example, small b_example,  b_example f_example, etc).",f_example_q_example_text,,"Description of the z_example Type Code.  0 = not assigned, 1 = (A), 2 = (B)",,
+62,e_example,e_example,e_example_num,,DESC DESC EXAMPLE,unique|not null,
+63,e_example,e_example,e_example_name,,DESC DESC EXAMPLE,,
+64,j_example,j_example,j_example_num,,%%%%%%%,unique|not null,
+65,j_example,j_example,j_example_description_text,,$$$$$$$$$,,
+67,p_example,p_example,p_example_num,,description,unique|not null,
+68,p_example,p_example,j_example_num,,description,unique|not null,
+69,p_example,p_example,p_example_description,,description,,CHAR(40)
+70,i_example,i_example,i_example_num,,"!!!!!!!!!!!!!!!!!
+",unique|not null,SMALLINT
+72,i_example,i_example,p_example_num,,#############,unique|not null,CHAR(5)
+73,i_example,i_example,i_example_description,,::::::::::::,,INTEGER
+74,n_example_type,n_example Type,n_example_type_code,,description,unique|not null,"DECIMAL(11,4)"
+75,n_example_type,no,description_text,,description,,"DECIMAL(9,6)"
+76,n_example_type,maybe,n_example_group_code,,description,,CHAR(18)
+77,n_example_subtype,yes,n_example_subtype_code,,description,unique|not null,CHAR(1)
+78,n_example_subtype,has (),description_text,,description,,CHAR(1)
+79,n_example,n_example,44,,44,unique|not null,CHAR(40)
+80,n_example,n_example,22,,22,unique|not null,INTEGER
+81,n_example,n_example,42,,42,,SMALLINT
+82,n_example,n_example,48,,48,unique|not null,DATE
+83,n_example,n_example,47,,47,unique|not null,SMALLINT
+84,n_example,n_example,7,,7,,SMALLINT
+85,n_example,n_example,11,,11,,INTEGER
+86,n_example,n_example,17,,17,,SMALLINT
+87,n_example,n_example,55,,55,,CHAR(5)
+88,n_example,n_example,56,,56,,CHAR(5)
+89,n_example,n_example,57,,57,,CHAR(1)
+90,n_example,n_example,27,,27,,
+91,n_example,n_example,25,,25,,
+92,n_example,n_example,26,,26,,CHAR(4)
+93,n_example,n_example,53,,53,,CHAR(4)
+94,n_example,n_example,12,,12,,SMALLINT
+95,n_example,n_example,69,,69,,CHAR(50)
+95,n_example,n_example,71,,71,,CHAR(1)
+96,n_example,n_example,45,,45,,CHAR(17)
+97,n_example,n_example,37,,37,,CHAR(1)
+98,n_example,n_example,35,,35,,CHAR(1)
+99,n_example,n_example,1,,1,,DATE
+100,n_example,n_example,8,,8,,
+101,n_example,n_example,5,,5,,CHAR(5)
+102,n_example,n_example,4,,4,,
+103,n_example,n_example,10,,10,,SMALLINT
+104,n_example,n_example,9,,9,,CHAR(20)
+105,n_example,n_example,28,,28,,
+106,n_example,n_example,68,,68,,
+107,n_example,n_example,20,,20,,INTEGER
+108,n_example,n_example,23,,23,,
+109,n_example,n_example,14,,14,,SMALLINT
+110,n_example,n_example,34,,34,,INTEGER
+111,n_example,n_example,49,,49,,
+112,n_example,n_example,16,,16,,SMALLINT
+113,n_example,n_example,6,,6,,SMALLINT
+114,g_example,g_example,g_example_j,," ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate veli",unique|not null,SMALLINT
+115,g_example,g_example,n_example_num,,"g_example, n_example_num",unique|not null,CHAR(10)
+116,g_example,g_example,g_example_a,,G_example a.,,
+117,g_example,g_example,g_example_d,,DESC DESC EXAMPLE,,
+118,g_example,g_example,g_example_p,," ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate veli",,
+119,g_example,g_example,g_example_g,,Testing 3,,
+120,g_example,g_example,g_example_i,,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, qu",,
+121,g_example,g_example,g_example_h,,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",,"DECIMAL(9,6)"
+122,g_example,g_example,g_example_l,,g_example_l,,SMALLINT
+123,g_example,g_example,g_example_o,," ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate veli",,
+124,g_example,g_example,g_example_e,,TESTING,,CHAR(2)
+125,g_example,g_example,g_example_f,,TESTING 2,,
+126,g_example,g_example,g_example_s,," ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate veli",,
+127,g_example,g_example,g_example_m,,g_example_m,,
+128,g_example,g_example,g_example_n,,g_example_n,,
+129,g_example,g_example,g_example_c,,C of g_example,,CHAR(4)
+130,g_example,g_example,g_example_q,," ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate veli",,
+131,g_example,g_example,g_example_r,," ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate veli
+
+
+
+
+
+--------",,SMALLINT
+132,g_example,g_example,g_example_b,,G_example gggggggggggggggggggggggg,,CHAR(5)
+133,h_example_type,"example
+
+- example desc",h_example_a,," ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate veli",unique|not null,
+134,h_example_type,f and h and g and i,h_example_b,,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, qu",,SMALLINT
+,g_example,g_example,g_example_k,,g_example_k,,SMALLINT
+,k_example,i_example,k_example_a,,^^^^^^^^^,unique|not null,"DECIMAL(9,6)"
+,k_example,b_example,k_example_b,,&&&&&&&,,
+,k_example,table is updated using b_example and c_example and d_example and e_example and f_example,k_example_c,,*********,,
+,k_example,table is updated using b_example and c_example and d_example and e_example and f_example,k_example_d,,((((((((((,,
+,k_example,table is updated using b_example and c_example and d_example and e_example and f_example,k_example_e,,))))))))))),,DATE
+,k_example,table is updated using b_example and c_example and d_example and e_example and f_example,k_example_f,,_________,,
+,k_example,table is updated using b_example and c_example and d_example and e_example and f_example,k_example_g,,TESTING,,SMALLINT
+,k_example,table is updated using b_example and c_example and d_example and e_example and f_example,k_example_h,,TESTING,,SMALLINT
+,k_example,table is updated using b_example and c_example and d_example and e_example and f_example,k_example_i,,TESTING,,SMALLINT
+,k_example,table is updated using b_example and c_example and d_example and e_example and f_example,k_example_j,,TESTING,,
+,k_example,"table is updated using
+b_example and c_example and 
+d_example and 
+e_example and f_example",k_example_k,,TESTING,,
+,k_example,"table is updated using
+b_example and c_example and 
+d_example and 
+e_example and f_example",k_example_l,,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",,
+,k_example,"table is updated using
+b_example and c_example and 
+d_example and 
+e_example and f_example",k_example_m,,TESTING,,
+,k_example,"table is updated using
+b_example and c_example and 
+d_example and 
+e_example and f_example",k_example_n,,TESTING,,
+,k_example,"table is updated using
+b_example and c_example and 
+d_example and 
+e_example and f_example",k_example_o,,TESTING,,
+,k_example,"table is updated using
+b_example and c_example and 
+d_example and 
+e_example and f_example",k_example_p,,TESTING,,
+,k_example,"table is updated using
+b_example and c_example and 
+d_example and 
+e_example and f_example",k_example_q,,"0 = 1
+3 = 4
+1 = 2",,
+,k_example,"table is updated using
+b_example and c_example and 
+d_example and 
+e_example and f_example",k_example_r,,TESTING,,
+,n_example,n_example,2,,2,,
+,n_example,n_example,3,,3,,SMALLINT
+,n_example,n_example,13,,13,,
+,n_example,n_example,15,,15,CRP_NBR,
+,n_example,n_example,18,,18,,DATE
+,n_example,n_example,19,,19,,CHAR(40)
+,n_example,n_example,21,,21,,SMALLINT
+,n_example,n_example,24,,24,,CHAR(40)
+,n_example,n_example,29,,29,,SMALLINT
+,n_example,n_example,30,,30,,SMALLINT
+,n_example,n_example,31,,31,,DATE
+,n_example,n_example,32,,32,,SMALLINT
+,n_example,n_example,33,,33,,INTEGER
+,n_example,n_example,36,,36,,"DECIMAL(5,4)"
+,n_example,n_example,38,,38,,"DECIMAL(13,2)"
+,n_example,n_example,39,,39,,SMALLINT
+,n_example,n_example,40,,40,,SMALLINT
+,n_example,n_example,41,,41,,INTEGER
+,n_example,n_example,43,,43,,CHAR(40)
+,n_example,n_example,46,,46,,INTEGER
+,n_example,n_example,50,,50,,INTEGER
+,n_example,n_example,51,,51,,INTEGER
+,n_example,n_example,52,,52,,CHAR(40)
+,n_example,n_example,54,,54,,INTEGER
+,n_example,n_example,58,,58,,INTEGER
+,n_example,n_example,59,,59,,INTEGER
+,n_example,n_example,60,,60,,INTEGER
+,n_example,n_example,61,,61,,CHAR(40)
+,n_example,n_example,62,,62,,INTEGER
+,n_example,n_example,63,,63,,SMALLINT
+,n_example,n_example,64,,64,,CHAR(40)
+,n_example,n_example,65,,65,,
+,n_example,n_example,66,,66,,SMALLINT
+,n_example,n_example,67,,67,,CHAR(5)
+,n_example,n_example,70,,70,,SMALLINT
+,p_example,p_example,e_example_num,,description,,CHAR(40)
+,r_example,Example and example,n_example_num,,description,,
+,r_example,Example and example,purchase_order_num,,description,,
+,r_example,Example and example,m_example_num,,description,,
+,r_example,Example and example,receiving_report_num,,description,,
+,r_example,Example and example,r_example_a,,description,,
+,r_example,Example and example,r_example_b,,description,,
+,r_example,Example and example,r_example_c,,description,,
+,r_example,Example and example,r_example_d,,description,,
+,r_example,Example and example,r_example_e,,description,,
+,r_example,Example and example,r_example_f,,description,,
+,r_example,Example and example,r_example_g,,description,,
+,r_example,Example and example,h,,description,,
+,r_example,Example and example,i,,description,,
+,r_example,Example and example,j,,description,,
+,n_example_history,n_example History,k,,description,,
+,n_example_history,n_example History,l,,description,,
+,n_example_history,n_example History,m,,description,,
+,n_example_history,n_example History,n,,description,,
+,n_example_history,n_example History,o,,description,,
+,,,,,,,
